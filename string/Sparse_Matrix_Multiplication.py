@@ -6,5 +6,4 @@ def SparseMatrixMultiplication(a1,b1):
         for j in len(b1[0]):
             if a1[i][c]==0 or b1[c][j]==0:
                 c=c+1
-            else:
-                
+            else:print("")
