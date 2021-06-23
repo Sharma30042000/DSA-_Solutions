@@ -40,15 +40,13 @@ def helper(s,i):
 def ls(s):
     if len(s)<2:
         return s
-    if len(s)==2 and s[0]==s[1]:
-        return s
     ans=""
     for i in range(0,len(s)-1):
         f=helper(s,i)
         if len(f)>len(ans):
             ans=f
     return ans
-print(ls("abaxyzzyxf"))
+print(ls("a"))
            
 
 
