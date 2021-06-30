@@ -46,7 +46,7 @@ def ls(s):
         if len(f)>len(ans):
             ans=f
     return ans
-print(ls("a"))
+print(ls("aabbaa"))
            
 
 
